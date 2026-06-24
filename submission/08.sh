@@ -1,2 +1,2 @@
 # Generate a native SegWit address.
-bitcoin-cli -regtest getnewaddress -addresstype bech32
+$ bitcoin-cli -regtest getnewaddress -addresstype bech32
