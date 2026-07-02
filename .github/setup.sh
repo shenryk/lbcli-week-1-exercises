@@ -4,8 +4,8 @@ mkdir -p ~/.bitcoin
 cat <<EOF > ~/.bitcoin/bitcoin.conf
 [regtest]
 regtest=1
-rpcuser=polaruser
-rpcpassword=polarpass
+rpcuser=shenku
+rpcpassword=shenku
 rpcport=18443
 EOF
 
