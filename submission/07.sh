@@ -1,2 +1,2 @@
 # Generate a P2SH address.
-bitcoin-cli --rpcwallet=builderswallet getnewaddress -addresstype p2sh-segwit
+bitcoin-cli -regtest --rpcwallet=builderswallet getnewaddress -addresstype p2sh-segwit
