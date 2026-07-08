@@ -6,7 +6,7 @@ cat <<EOF > ~/.bitcoin/bitcoin.conf
 regtest=1
 rpcuser=shenku
 rpcpassword=shenku
-rpcport=18443
+rpcport=8332
 EOF
 
 echo $(bitcoin-cli --version)
